@@ -1,6 +1,7 @@
 # Testing go-mysqldump
 
-To keep it simple did not
+To keep it simple did not documented bash/mysql output for most of the commands.
+
 ```sh
 ## running mysql in a docker container
 docker run --name mysql -e MYSQL_ROOT_PASSWORD=password -p 3306:3306/tcp -d mysql
