@@ -1,7 +1,8 @@
-module godump
+module github.com/mol-george/godump.git
 
 go 1.18
 
-require github.com/go-sql-driver/mysql v1.6.0
-
-require github.com/jamf/go-mysqldump v0.7.1
+require (
+	github.com/go-sql-driver/mysql v1.6.0
+	github.com/jamf/go-mysqldump v0.7.1
+)
